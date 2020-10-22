@@ -21,6 +21,7 @@ namespace MacScanner
         private void ScanButton_Click(object sender, EventArgs e)
         {
             //some stuff
+            //some more stuff
         }
     }
 }

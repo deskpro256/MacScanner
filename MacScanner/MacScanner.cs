@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace MacScanner
 {
-    public partial class Form1 : Form
+    public partial class MacScanner : Form
     {
-        public Form1()
+        public MacScanner()
         {
             InitializeComponent();
+            toolTip.SetToolTip(MACTextBox, "Enter the manufacturers MAC address part and press 'Scan'.\nFormat FF:FF:FF or FF-FF-FF.");
         }
+
     }
 }

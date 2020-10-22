@@ -47,6 +47,7 @@
             this.ScanButton.TabIndex = 0;
             this.ScanButton.Text = "Scan";
             this.ScanButton.UseVisualStyleBackColor = true;
+            this.ScanButton.Click += new System.EventHandler(this.ScanButton_Click);
             // 
             // NetworkCheckBox
             // 

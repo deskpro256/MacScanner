@@ -18,5 +18,9 @@ namespace MacScanner
             toolTip.SetToolTip(MACTextBox, "Enter the manufacturers MAC address part and press 'Scan'.\nFormat FF:FF:FF or FF-FF-FF.");
         }
 
+        private void ScanButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
